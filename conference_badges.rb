@@ -20,4 +20,3 @@ def assign_rooms(speaker)
 end
 arr
 end
-end
