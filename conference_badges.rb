@@ -12,4 +12,5 @@ new_array
 end
 
 def assign_rooms(speaker)
+  speaker.each_with_index
 
