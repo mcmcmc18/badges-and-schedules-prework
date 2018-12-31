@@ -14,7 +14,7 @@ end
 def assign_rooms(speaker)
   arr = []
   i = 1
-  speaker.each_with_index |person|
+  speaker.each do |person|
   speaker[room] = person 
   arr.push("Hello, #{person} You'll be assigned to room #{i} ") 
   i++
