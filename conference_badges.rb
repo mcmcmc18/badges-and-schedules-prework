@@ -10,3 +10,5 @@ new_array.push("Hello, my name is #{name}.")
 end
 new_array
 end
+
+def assign_rooms(speaker)
