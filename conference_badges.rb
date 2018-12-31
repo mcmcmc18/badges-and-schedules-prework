@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(arr)
 new_arr = arr.collect do |name|
-name = "Hello, my name is " + {name} + "."
+name = "Hello, my name is #{name}."
 new_arr
 end
