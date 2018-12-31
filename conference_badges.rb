@@ -4,6 +4,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
-arr.collect do |name|
-arr << "Hello, my name is " + {name} + "."
+new_arr = arr.collect do |name|
+name = "Hello, my name is " + {name} + "."
+new_arr
 end
