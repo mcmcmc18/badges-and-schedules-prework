@@ -12,7 +12,10 @@ new_array
 end
 
 def assign_rooms(speaker)
-  speaker.each_with_index{ |item, index|
-  hash[item] = index
+  arr = []
+  speaker.each_with_index{ |room, person|
+  speaker[room] = person
+  arr.push()
+  
   
 end
